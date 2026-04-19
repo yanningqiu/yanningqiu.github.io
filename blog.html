@@ -7,51 +7,55 @@
     <title>Blog - Yanning Qiu</title>
     <link rel="stylesheet" href="css/style.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <style>
-        .post-preview {
-            margin-bottom: 2rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #eee;
-        }
-
-        .post-preview:last-child {
-            border-bottom: none;
-        }
-
-        .post-date {
-            font-family: var(--font-mono);
-            font-size: 0.8rem;
-            color: var(--secondary-color);
-        }
-
-        .post-title {
-            margin: 0.5rem 0;
-            font-size: 1.5rem;
-        }
-
-        .post-title a {
-            color: var(--text-color);
-        }
-
-        .post-title a:hover {
-            color: var(--accent-color);
-        }
-    </style>
 </head>
 
 <body>
     <header id="header-placeholder"></header>
 
-    <main class="container">
-        <h1>Blog</h1>
-        <p style="margin-bottom: 3rem; color: var(--secondary-color);">Thoughts, updates, and technical notes.</p>
+    <main class="container page-shell">
+        <section class="page-hero">
+            <div>
+                <div class="eyebrow">Blog</div>
+                <h1>Research notes, tools, and technical experiments.</h1>
+                <p class="page-lead">
+                    A place for writing about water quality, microplastics, AI-assisted scientific workflows, and
+                    environmental monitoring systems.
+                </p>
+                <div class="pill-list">
+                    <span class="pill">Literature synthesis</span>
+                    <span class="pill">Data extraction</span>
+                    <span class="pill">Environmental AI</span>
+                    <span class="pill">Research workflow design</span>
+                </div>
+            </div>
 
-        <div id="blog-posts">
-            <!-- Posts will be loaded here -->
-            <p>Loading posts...</p>
-        </div>
+            <aside class="contact-card">
+                <div class="contact-chip">
+                    <strong>What you will find here</strong>
+                    Notes on ongoing work, technical experiments, and methods that bridge scientific reasoning with AI
+                    tooling.
+                </div>
+                <div class="contact-chip">
+                    <strong>Writing style</strong>
+                    Short, practical posts with room for work-in-progress thinking and reproducible ideas.
+                </div>
+            </aside>
+        </section>
+
+        <section class="section-block">
+            <div class="section-heading">
+                <div>
+                    <div class="eyebrow">Archive</div>
+                    <h2>Latest posts.</h2>
+                </div>
+            </div>
+
+            <div id="blog-posts" class="post-grid">
+                <p>Loading posts...</p>
+            </div>
+        </section>
     </main>
 
     <footer id="footer-placeholder"></footer>

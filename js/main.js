@@ -25,14 +25,13 @@ async function loadComponent(path, elementId) {
 }
 
 function highlightActiveLink() {
-    const currentPath = window.location.pathname;
-    const navLinks = document.querySelectorAll('nav a');
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = document.querySelectorAll('.nav-link');
 
     navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath.split('/').pop() || (currentPath.endsWith('/') && link.getAttribute('href') === 'index.html')) {
-            link.style.fontWeight = 'bold';
-            link.style.textDecoration = 'underline';
-        }
+        const isActive = link.getAttribute('href') === currentPage;
+        link.classList.toggle('is-active', isActive);
+        link.setAttribute('aria-current', isActive ? 'page' : 'false');
     });
 }
 
@@ -53,14 +52,19 @@ async function loadBlogPosts(containerId, limit = null) {
             posts = posts.slice(0, limit);
         }
 
+        container.classList.add('post-grid');
+
         const postsHtml = posts.map(post => `
             <article class="post-preview">
-                <div class="post-date">${post.date}</div>
-                <h3 class="post-title" style="font-size: 1.3rem; margin: 0.5rem 0;">
+                <div class="post-preview-top">
+                    <div class="post-date">${post.date}</div>
+                    <div class="post-tag">Research note</div>
+                </div>
+                <h3 class="post-title">
                     <a href="${post.link}">${post.title}</a>
                 </h3>
-                <p>${post.summary}</p>
-                <a href="${post.link}">Read more &rarr;</a>
+                <p class="post-summary">${post.summary}</p>
+                <a class="text-link" href="${post.link}">Read article</a>
             </article>
         `).join('');
 

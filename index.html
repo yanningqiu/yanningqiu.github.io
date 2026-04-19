@@ -6,75 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yanning Qiu - Personal Website</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
     <header id="header-placeholder"></header>
 
-    <main class="container">
-        <section class="intro">
-            <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
-                <div style="flex: 0 0 180px;">
-                    <img src="images/profile.jpg" alt="Yanning Qiu"
-                        style="width: 100%; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <main class="container page-shell">
+        <section class="hero-panel">
+            <div class="hero-copy">
+                <div class="eyebrow">Wageningen University & Research</div>
+                <h1>Water quality science with an AI-native research workflow.</h1>
+                <p class="hero-lead">
+                    I am Yanning Qiu, an Assistant Professor in Water Quality and Data Science working at the Aquatic
+                    Ecology and Water Quality Management Group, Wageningen University & Research.
+                </p>
+                <p>
+                    My current research focuses on the <strong>risk assessment of microplastics</strong> on human
+                    health and the environment.
+                </p>
+                <p>
+                    I am particularly interested in integrating <strong>artificial intelligence</strong> into
+                    scientific research, including the use of <strong>large language models (LLMs)</strong> and
+                    <strong>computer vision (CV)</strong> to advance literature synthesis, structured data extraction,
+                    and environmental monitoring.
+                </p>
+
+                <div class="pill-list">
+                    <span class="pill">Microplastics risk assessment</span>
+                    <span class="pill">LLM-assisted literature synthesis</span>
+                    <span class="pill">Structured data extraction</span>
+                    <span class="pill">Computer vision for monitoring</span>
                 </div>
-                <div style="flex: 1;">
-                    <h1>Hello, I'm Yanning Qiu.</h1>
-                    <p class="lead" style="font-size: 1.2rem; color: var(--secondary-color); margin-bottom: 0;">
-                        Assistant Professor, Water Quality and Data Science @ Wageningen University | Ecologist | AI Researcher
-                    </p>
+
+                <div class="hero-actions">
+                    <a href="cv.html" class="btn">View CV</a>
+                    <a href="blog.html" class="btn btn-secondary">Read Blog</a>
+                    <a href="mailto:yanning.qiu@wur.nl" class="btn btn-ghost">Contact</a>
                 </div>
             </div>
 
-            <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 2rem 0;">
+            <div class="hero-side">
+                <div class="profile-card">
+                    <div class="profile-frame">
+                        <img src="images/profile.jpg" alt="Yanning Qiu">
+                    </div>
+                    <div class="profile-caption">
+                        <p class="small-note">Based in Wageningen, the Netherlands</p>
+                    </div>
+                </div>
 
-            <p>
-                I am an <strong>Assistant Professor in Water Quality and Data Science</strong> at the
-                <strong>Aquatic Ecology and Water Quality Management Group, Wageningen University & Research
-                    (WUR)</strong>.
-            </p>
-            <p>
-                My current research focuses on the <strong>risk assessment of microplastics</strong> on human health
-                and the environment.
-            </p>
-            <p>
-                I am particularly interested in integrating <strong>artificial intelligence</strong> into scientific
-                research, including the use of <strong>large language models (LLMs)</strong> and
-                <strong>computer vision (CV)</strong> to advance literature synthesis, structured data extraction, and
-                environmental monitoring.
-            </p>
-
-            <p>
-                Beyond my research, I enjoy <strong>hiking</strong>, <strong>skiing</strong>, and
-                <strong>birdwatching</strong>.
-                I am also an avid photographer, with a special passion for <strong>wildlife photography</strong>.
-            </p>
-
-            <div style="margin-top: 2rem;">
-                <a href="cv.html" class="btn">View my CV</a>
-                <a href="blog.html" class="btn"
-                    style="background-color: transparent; color: var(--accent-color); border: 1px solid var(--accent-color); margin-left: 1rem;">Read
-                    my Blog</a>
+                <div class="side-card">
+                    <div class="eyebrow">At a Glance</div>
+                    <div class="stat-list">
+                        <div class="stat-row">
+                            <span class="stat-label">Role</span>
+                            <span class="stat-value">Assistant Professor</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Group</span>
+                            <span class="stat-value">AEWQ, WUR</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Focus</span>
+                            <span class="stat-value">Microplastics and environmental AI</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
         </section>
 
-        <section style="margin-top: 4rem;">
-            <h2 style="border-bottom: 2px solid var(--accent-color); padding-bottom: 0.5rem; margin-bottom: 2rem;">
-                Latest Posts</h2>
-            <div id="blog-preview">
-                <!-- Posts will be loaded here -->
-                <p>Loading posts...</p>
+        <section class="section-block">
+            <div class="section-heading">
+                <div>
+                    <div class="eyebrow">Research Themes</div>
+                    <h2>Three threads that shape my work.</h2>
+                </div>
+                <p class="section-copy">
+                    I work where environmental questions meet computable evidence, reproducible data pipelines, and
+                    field-facing monitoring systems.
+                </p>
             </div>
-            <div style="margin-top: 2rem; text-align: center;">
-                <a href="blog.html" class="btn">View All Posts</a>
+
+            <div class="card-grid">
+                <article class="feature-card">
+                    <h3>Risk and evidence synthesis</h3>
+                    <p>
+                        Building better ways to assemble, harmonize, and interpret evidence on microplastic exposure
+                        and effects across environmental and human health contexts.
+                    </p>
+                </article>
+                <article class="feature-card">
+                    <h3>AI for scientific workflows</h3>
+                    <p>
+                        Using LLMs to support literature review, structured data extraction, and quality control in
+                        research workflows that need to scale without losing rigor.
+                    </p>
+                </article>
+                <article class="feature-card">
+                    <h3>Vision-based monitoring</h3>
+                    <p>
+                        Exploring how computer vision can turn images from the field into usable environmental signals
+                        for monitoring, assessment, and decision support.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block split-grid">
+            <article class="section-panel">
+                <div class="eyebrow">Current Direction</div>
+                <h2>From scientific literature to operational environmental data.</h2>
+                <p>
+                    A recurring theme in my work is connecting messy real-world evidence with structured, reusable
+                    analytical systems. That includes reviewing scientific literature at scale, extracting data in a
+                    machine-readable way, and connecting those outputs to quantitative risk assessment.
+                </p>
+                <p>
+                    I am especially interested in workflows where ecological expertise and AI tooling reinforce each
+                    other, rather than being treated as separate parts of the research process.
+                </p>
+            </article>
+
+            <aside class="section-panel">
+                <div class="eyebrow">Outside Research</div>
+                <p>
+                    When I step away from work, I am usually hiking, skiing, birdwatching, or photographing wildlife.
+                    That same curiosity about observation and patterns continues to shape how I think about science.
+                </p>
+            </aside>
+        </section>
+
+        <section class="section-block">
+            <div class="section-heading">
+                <div>
+                    <div class="eyebrow">Latest Writing</div>
+                    <h2>Research notes and technical experiments.</h2>
+                </div>
+                <a href="blog.html" class="text-link">See all posts</a>
+            </div>
+            <div id="blog-preview" class="post-grid">
+                <p>Loading posts...</p>
             </div>
         </section>
     </main>
