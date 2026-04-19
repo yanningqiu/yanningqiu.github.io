@@ -1,0 +1,89 @@
+Yanning Qiu
+Address: 	Droevendaalsesteeg 3a, Building 100, 
+6708 PB Wageningen, the Netherlands 
+Tel: 		+31 - 645106612		E-mail:		yanning.qiu@wur.nl 
+
+Work Experience:
+Assistant Professor 				Feb 2026 – present
+Aquatic Ecology and Water Quality Management Group, Wageningen University & Research 
+(Wageningen, the Netherlands)
+Assistant Professor in Water Quality and Data Science
+Lecturer: Field Research Water and Atmosphere (HWM23306, 2026)
+Teaching Assistant: Water Quality (AEW-31306, 2026)
+
+Postdoctoral Researcher			Aug 2025 – Jan 2026
+Urban Data Science, Faculty of Architecture and the Built Environment, Delft University of Technology 
+(Delft, the Netherlands)
+Revealing Urban Waste Dynamics from Images with AI
+Supervised by Prof. Dr. Jantien E. Stoter, Dr. Liangliang Nan and Dr. Tim van Emmerik.
+
+Postdoctoral Researcher			Jan 2024 – Jul 2025
+Aquatic Ecology and Water Quality Management Group, Wageningen University & Research 
+(Wageningen, the Netherlands)
+Standardised and scalable methods to quantify and characterise micro- and nanoplastics (MNP) in environmental compartments and matrices in the human body. 
+Supervised by Prof. Dr. Albert A. Koelmans.
+Teaching Assistant: Water Quality (AEW-31306, 2025), Chemical Stress Ecology and Ecotoxicology (AEW-30806, 2025)
+
+Doctoral Researcher				Sep 2019 – Oct 2023
+Wildlife Ecology and Conservation Group, Wageningen University & Research 
+(Wageningen, the Netherlands)
+Assessing Dryland Resilience: Bridging Theory, Observation and Practice. 
+Supervised by Dr. Milena Holmgren and Dr. Zhiwei Xu.
+Teaching Assistant: Climate Change Ecology (WEC-20306, 2021)
+Co-supervised two BSc. theses and one MSc. internship (2020 – 2022).
+
+Environmental Affairs Intern 		Feb 2019 – Jun 2019
+United Nations Economic and Social Commission for Asia and the Pacific 
+(Incheon, Republic of Korea)
+North-East Asia Multi-stakeholder Plan on Combating Desertification and Land Degradation. 
+Supervised by Qian Cheng 
+
+Education: 
+2019 – 2023
+Wageningen University & Research, the Netherlands
+Ph.D
+Ecology
+2016 – 2019
+Nanjing University, China
+M.S.
+Ecology
+2012 – 2016
+University of Science and Technology of China, China
+B.S.
+Biological Sciences
+
+Publications:
+Selected peer-reviewed journal publications
+	•	Qiu, Y., Mintenig, S., Barchiesi, M., & Koelmans, A. A. (2025). Using artificial intelligence tools for data quality evaluation in the context of microplastic human health risk assessments. Environment International, 197, 109341.
+	•	Qiu, Y., Xu, Z., Xu, C., & Holmgren, M. (2022). Can remotely-sensed vegetation patterns signal dryland restoration success?. Restoration Ecology, e13760.
+	•	Qiu, Y.#, Teng, N. S.#, Zhang, Y., Santan, J., Svenning, JC., Reino, L., Abades, S., Ma, H., Yang, L., Wu, Y., Huang, Z. Y. X., & Xu, C. (2019). The resolution-dependent role of landscape attributes in shaping macro-scale biodiversity patterns. Global Ecology and Biogeography, 28(6), 767-778. (co-first author)
+	•	Qiu, Y., Chen, B. J. W., Song, Y., Huang, Z. Y. X., Wan, L., Huang, C., Liu, M., & Xu, C. (2016). Composition, distribution and habitat effects of vascular plants on the vertical surfaces of an ancient city wall. Urban Ecosystems,19(2), 1-10. 
+	•	Wei, S#., Yuan, J#., Qiu, Y#., Luan, X., Han, S., Zhou, W., & Xu, C. (2017). Exploring the potential of open big data from ticketing websites to characterize travel patterns within the Chinese high-speed rail system. PloS one, 12(6), e0178023. (co-first author)
+	•	Wang, L., Qiu, Y., Han, Z., Xu, C., Wu, S. Y., Wang, Y., ... & Xu, Z. (2022). Climate, topography and anthropogenic effects on desert greening: A 40-year satellite monitoring in the Tengger desert, northern China. Catena, 209, 105851.
+Book
+	•	Qian, L., Qiu, Y., Illustrated book of Plants in Campus of University of Science and Technology of China. (2016), Hefei: Press of University of Science and Technology of China
+Manuscripts submitted and in preparation
+	•	Koelmans, A. A., Qiu, Y., Wardani, I., van Nes, E., Lane, T. Tissue-based human microplastic exposure assessment from aligned and quality-assured datasets. (submitted to Environmental Science & Technology) 
+	•	Qiu, Y. #, Wardani, I. #, Barchiesi, M., de Ruijter, V., Lane, T., van Nes, E., Koelmans, A. A. Alignment of microplastic exposure data to enhance human health risk assessment. (co-first author, in preparation)
+	•	Qiu, Y., van de Leemput, I., Holmgren, M. Bridging theory and practice to accelerate restoration of ecosystems with alternative states. (to be re-submitted to Restoration Ecology)
+	•	Qiu, Y., van Emmerik, T., Nan, L., Stoter, J. E. Mapping Urban Waste Hotspots with Street-View Imagery and Multimodal LLMs. (in preparation)
+	•	Qiu, Y., Xu, Z., Holmgren, M., van Nes, E., Sheffer, M. Quantifying sand dune resilience to anticipate restoration potential. (in preparation)
+
+Academic Reviewing Activities:
+Journals: Ecology Letters, Journal of Biogeography, Ecological Indicators, Remote Sensing in Ecology and Conservation, Scientific Reports, Scientific Data, Journal of Environmental Management, Landscape Ecology, Restoration Ecology, GIScience & Remote Sensing, Marine Pollution Bulletin, Regional Studies in Marine Science.
+Conferences: Ecological Society of America (ESA) Annual Meeting, Abstract reviewer, 2024–2026.
+
+Oral Presentations:
+	•	LLM-Assisted QA/QC and Structured Data Extraction for Microplastic Health Risk Assessment. Jun 17, 2026, AI in Microplastics Research Seminar, University of California, Riverside (Online, invited talk) 
+	•	Mapping Urban Waste Hotspots with Street-View Imagery and Multimodal LLMs. Apr 14-16, 2026, AMS Scientific Conference 2026, Amsterdam, the Netherlands
+	•	Leveraging AI tools for microplastic data quality assessment. Sep 23 – 27, 2024, MICRO, Lanzarote, Spain
+	•	Guiding ecosystem restoration with critical transition theory: Lessons from drylands. ESA Annual Meeting, Aug 6 – 11, 2023, Portland, USA (Nominated for Best Oral Presentation of Theoretical Ecology section).
+	•	Spatial pattern as recovery indicator: Can we infer dryland restoration success from remotely sensed vegetation patterns? Netherlands Annual Ecology Meeting, Sep 20 – 21, 2022, Lunteren, the Netherlands.
+	•	Combining drone imagery, field surveys and modelling to assess dryland recovery. INTECOL (The International Association for Ecology) 2022, Aug 28 – Sep 2, 2022, Geneva, Switzerland.
+	•	Assessing the resilience of Chinese drylands after active restoration. Dryland Ecosystems: Threats and opportunities associated with climate change (DETOCC), Mar 3 – 7, 2020, Piura, Peru.
+	•	Greening the desert: What can we learn from the Chinese dryland restoration projects?. Netherlands Annual Ecology Meeting, Feb 11 – 12, 2020, Lunteren, the Netherlands.
+
+
+Voluntary Work:
+Science News Editor & Podcasts Translator					Oct 2020 – Jan 2021; Dec 2017 – Jun 2019
+Scientific American (Chinese Edition, online)

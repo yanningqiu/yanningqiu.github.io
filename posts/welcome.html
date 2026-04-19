@@ -32,8 +32,8 @@
 
                 <p>
                     The site is built to evolve over time. It started as a lightweight static site, and I expect it to
-                    grow into a more useful place for writing, documenting methods, and making ongoing work more
-                    visible.
+                    grow into a more useful place for documenting methods, sharing small updates, and making ongoing
+                    work more visible.
                 </p>
             </div>
         </article>
@@ -69,6 +69,7 @@
                         const blogLink = document.querySelector('.nav-link[href="../blog.html"]');
                         if (blogLink) {
                             blogLink.classList.add('is-active');
+                            blogLink.setAttribute('aria-current', 'page');
                         }
                     }
                 }

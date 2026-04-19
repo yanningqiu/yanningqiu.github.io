@@ -31,7 +31,11 @@ function highlightActiveLink() {
     navLinks.forEach(link => {
         const isActive = link.getAttribute('href') === currentPage;
         link.classList.toggle('is-active', isActive);
-        link.setAttribute('aria-current', isActive ? 'page' : 'false');
+        if (isActive) {
+            link.setAttribute('aria-current', 'page');
+        } else {
+            link.removeAttribute('aria-current');
+        }
     });
 }
 
@@ -58,7 +62,7 @@ async function loadBlogPosts(containerId, limit = null) {
             <article class="post-preview">
                 <div class="post-preview-top">
                     <div class="post-date">${post.date}</div>
-                    <div class="post-tag">Research note</div>
+                    <div class="post-tag">Post</div>
                 </div>
                 <h3 class="post-title">
                     <a href="${post.link}">${post.title}</a>
