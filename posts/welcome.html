@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Yanning Qiu</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header-placeholder"></header>
+
+    <main class="container">
+        <article>
+            <header style="margin-bottom: 2rem;">
+                <div style="font-family: var(--font-mono); color: var(--secondary-color); margin-bottom: 0.5rem;">
+                    November 30, 2025</div>
+                <h1>Welcome to my new website</h1>
+            </header>
+
+            <p>
+                Hello! I've finally set up my personal website. I plan to use this space to share my research updates,
+                technical tutorials, and other interesting findings.
+            </p>
+
+            <p>
+                The site is built with simplicity and performance in mind, using semantic HTML and modern CSS.
+            </p>
+
+            <hr>
+            <a href="../blog.html">&larr; Back to Blog</a>
+        </article>
+    </main>
+
+    <footer id="footer-placeholder"></footer>
+
+    <!-- Adjust script path for subdirectory -->
+    <script>
+        // Custom script loader for subdirectory
+        document.addEventListener('DOMContentLoaded', () => {
+            loadComponent('../components/navbar.html', 'header-placeholder');
+            loadComponent('../components/footer.html', 'footer-placeholder');
+        });
+
+        async function loadComponent(path, elementId) {
+            try {
+                const response = await fetch(path);
+                if (response.ok) {
+                    const html = await response.text();
+                    document.getElementById(elementId).innerHTML = html;
+
+                    // Fix links in navbar for subdirectory
+                    if (path.includes('navbar')) {
+                        const navLinks = document.querySelectorAll('nav a');
+                        navLinks.forEach(link => {
+                            const href = link.getAttribute('href');
+                            if (!href.startsWith('http') && !href.startsWith('..')) {
+                                link.setAttribute('href', '../' + href);
+                            }
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading component:', error);
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+:root {
+    /* Colors */
+    --bg-color: #f8f9fa; /* Off-white academic background */
+    --text-color: #2c3e50; /* Dark slate for text */
+    --accent-color: #2980b9; /* Academic Blue */
+    --secondary-color: #7f8c8d; /* Grey for metadata */
+    --code-bg: #ecf0f1;
+    --border-color: #bdc3c7;
+    
+    /* Typography */
+    --font-serif: 'Merriweather', 'Georgia', serif;
+    --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+    --font-mono: 'Fira Code', 'Courier New', monospace;
+    
+    /* Spacing */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --container-width: 800px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-serif);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    color: #1a252f;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+/* Header/Nav */
+header {
+    border-bottom: 1px solid var(--border-color);
+    padding: var(--spacing-md) 0;
+    margin-bottom: var(--spacing-lg);
+    background: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    font-family: var(--font-mono); /* Technical feel */
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    font-family: var(--font-sans);
+}
+
+/* Utilities */
+.btn {
+    display: inline-block;
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 4px;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+}
+.btn:hover {
+    background-color: #3498db;
+    text-decoration: none;
+    color: white;
+}
