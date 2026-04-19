@@ -1,41 +1,41 @@
 # Personal Website
 
-这是一个用 HTML、CSS、JavaScript 和 Vite 搭建的个人网站，已经配置为可直接部署到 GitHub Pages。
+This is a personal website built with HTML, CSS, JavaScript, and Vite. It is already configured for deployment to GitHub Pages.
 
-## 本地预览
+## Local Development
 
-先安装依赖：
+Install dependencies first:
 
 ```bash
 npm install
 ```
 
-启动本地开发服务器：
+Start the local development server:
 
 ```bash
 npm run dev
 ```
 
-生成生产环境文件：
+Build the production version:
 
 ```bash
 npm run build
 ```
 
-构建结果会输出到 `dist/`。
+The production output will be generated in `dist/`.
 
-## 如何发布到 GitHub Pages
+## Deploying to GitHub Pages
 
-这个项目已经包含 GitHub Actions 部署文件：
+This project already includes the GitHub Pages deployment files:
 
 - `.github/workflows/deploy.yml`
 - `public/.nojekyll`
 
-只要把当前文件夹推到 GitHub 仓库即可自动部署。
+Once the project is pushed to a GitHub repository, it can be deployed automatically.
 
-### 1. 初始化 Git 仓库
+### 1. Initialize the Git Repository
 
-如果当前文件夹还不是 Git 仓库，在项目根目录执行：
+If this folder is not already a Git repository, run the following in the project root:
 
 ```bash
 git init
@@ -43,18 +43,18 @@ git add .
 git commit -m "Initial personal website"
 ```
 
-### 2. 在 GitHub 新建仓库
+### 2. Create a GitHub Repository
 
-仓库名可以是：
+The repository name can be either:
 
-- `<你的用户名>.github.io`
-- 任何普通仓库名，例如 `personal-website`
+- `<your-username>.github.io`
+- Any regular repository name, for example `personal-website`
 
-这个项目已经改成相对资源路径，两种方式都可以正常部署。
+This project uses relative asset paths, so both options work correctly.
 
-### 3. 关联远程仓库并推送
+### 3. Connect the Remote Repository and Push
 
-把下面的 URL 替换成你自己的仓库地址：
+Replace the URL below with your own repository address:
 
 ```bash
 git branch -M main
@@ -62,27 +62,27 @@ git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 ```
 
-### 4. 打开 GitHub Pages
+### 4. Enable GitHub Pages
 
-进入 GitHub 仓库页面：
+In your GitHub repository:
 
-1. 打开 `Settings`
-2. 打开 `Pages`
-3. 在 `Build and deployment` 里选择 `GitHub Actions`
+1. Open `Settings`
+2. Open `Pages`
+3. Under `Build and deployment`, choose `GitHub Actions`
 
-之后每次 push 到 `main` 或 `master`，GitHub 都会自动重新构建并发布网站。
+After that, every push to `main` or `master` will automatically trigger a new deployment.
 
-## 网站结构
+## Project Structure
 
-- `index.html`：主页
-- `cv.html`：简历页
-- `blog.html`：博客列表页
-- `posts/`：单篇博客页面
-- `public/`：图片、PDF、JSON、HTML 组件等静态资源
-- `js/`：前端脚本
-- `css/`：样式文件
+- `index.html`: Home page
+- `cv.html`: CV page
+- `blog.html`: Blog listing page
+- `posts/`: Individual blog post pages
+- `public/`: Static assets such as images, PDFs, JSON, and HTML components
+- `js/`: Frontend JavaScript
+- `css/`: Stylesheets
 
-## 说明
+## Notes
 
-- 站点已经针对 GitHub Pages 调整为相对路径输出，不依赖固定仓库名。
-- `dist/` 是构建产物，不需要手动编辑。
+- The site is configured to use relative paths for GitHub Pages, so it does not depend on a fixed repository name.
+- `dist/` contains generated build output and should not be edited manually.
