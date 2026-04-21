@@ -357,6 +357,16 @@ nav ul {
     gap: 1rem;
 }
 
+.interest-copy {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+}
+
+.interest-copy p {
+    margin: 0;
+}
+
 .interest-list {
     margin: 0;
     padding: 0;
@@ -376,8 +386,7 @@ nav ul {
 }
 
 .muted-note {
-    margin-top: 1rem;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .post-grid {
